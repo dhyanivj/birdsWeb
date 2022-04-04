@@ -1,0 +1,159 @@
+@font-face {
+    font-family: TuskerGrotesk3600;
+    src: url(./tusker-grotesk-font/TuskerGrotesk-3600Semibold.ttf);
+}
+
+@font-face {
+    font-family: TuskerGrotesk2500;
+    src: url(./tusker-grotesk-font/TuskerGrotesk-2500Medium.otf);
+}
+@font-face {
+    font-family: TuskerGrotesk3600bold;
+    src: url(./tusker-grotesk-font/TuskerGrotesk-3800Super.ttf);
+}
+
+@font-face {
+    font-family: TuskerGrotesk5600semibold;
+    src: url(./tusker-grotesk-font/TuskerGrotesk-5500Medium.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFDCA6;
+    color:#f24139    ;
+
+}
+
+.mega{
+
+    font-family: TuskerGrotesk3600;
+    font-size: 384px;
+}
+.nano{
+    font-family: TuskerGrotesk2500;
+
+    font-size: 384px;
+}
+.equal{
+font-weight: 800;
+font-family: TuskerGrotesk3600bold;
+
+    font-size: 384px;
+}
+.small-heading{
+    font-family: TuskerGrotesk3600;
+font-size: 30px;
+line-height: 37px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.menu1 {
+margin: 0px 15px;
+font-family: TuskerGrotesk5600semibold;
+text-transform: uppercase;
+}
+.group1{
+    background-color: #FFEBCC;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.group2{
+    background-color: #fff8ec;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .main{
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+.div2{
+    position: relative;
+}
+
+
+.video-container {
+    /* height: 300px;
+    width: 300px; */
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;
+}
+
+.text-div{
+    font-size:94px;
+    line-height: 100px;
+    text-align: center;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.threebirds{
+    width: 45em;
+}
+
+.div3 > h1 {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    background-color: #fff8ec;
+ 
+    border-radius: 9px;
+    padding: 15px;
+    margin: 10px 10px;
+}
+.sociallogo{
+    display: flex;
+    justify-content: center;
+}
